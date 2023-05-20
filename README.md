@@ -1,6 +1,6 @@
 
-To begin with, A project was created from scratch, without any need of forks.
-The main idea behind this app was to reuse code from screens assignment.
+To begin with, the project was created from scratch, without any need of forks.
+The main idea behind this app was to reuse code from the screens assignment.
 A problem was that JSON_URL seemingly did not update into app fast enough, unclear why. Old Json data stuck on app screen although changes were made in the admin interface, might have missed something though. 
 
 A recyclerAdapter was used generally in the same way as the JSON and HTTPS assignment. 
