@@ -10,7 +10,7 @@ SecondActivity contained intents declared in the main activity.
 
 Interesting warning here, it did not like the concatenation but rather creating a string of some sort. Unclear how to implement the suggested string type but code works fine with the concatenation. 
 
-
+The app is about a zoo and then a fun fact about elephants is displayed on the secondActivity.
 
 
 
