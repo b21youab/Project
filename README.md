@@ -12,8 +12,8 @@ Interesting warning here, it did not like the concatenation but rather creating 
 
 
 
-
-
+![](projje.png);
+![](abbeprojje.png);
 
 
 

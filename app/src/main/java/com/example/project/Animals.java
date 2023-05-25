@@ -1,32 +1,36 @@
 package com.example.project;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Animals {
 
      String ID;
      String name;
      String location;
-     int Size;
+
+
+    @SerializedName("size")
+    int weight;
+    @SerializedName ("cost")
+
      int population;
      String company;
-     String audaxdata;
+
 
 
     public  Animals (String ID, String name, String location, int Size, int population,
-                     String company, String audaxdata) {
+                     String company) {
         this.ID= ID;
         this.name = name;
         this.location=location;
-        this.Size = Size;
+        this.weight = weight;
         this.population = population;
         this.company = company;
-        this.audaxdata = audaxdata;
-
-
-        }
+     }
 
 
 
-    public String ID() {
+    public String getID() {
 
         return ID;
     }
@@ -39,9 +43,9 @@ public class Animals {
 
         return location;
     }
-    public int getSize() {
+    public int getWeight() {
 
-        return Size;
+        return weight;
     }
     public int getPopulation() {
 
@@ -52,10 +56,6 @@ public class Animals {
         return company;
     }
 
-    public String getAudaxdata() {
-
-        return audaxdata;
-    }
 
 
 }
